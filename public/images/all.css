@@ -1,0 +1,290 @@
+#wrapper {
+	width: 990px;
+	margin: 0 auto;
+	
+}
+.logo_s {
+	width: 248px;
+	float: left;
+	height: 42px;
+}
+
+#footer {
+	background-color: #2a1500;
+	height: 56px;
+}
+.footer_left {
+	background-image: url(images/index_19.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 56px;
+	width: 309px;
+}
+.footer_right  {
+	font-size: 12px;
+	color: #684522;
+	float: left;
+	z-index: 3;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 300px;
+	text-align: left;
+}
+
+
+.logo {
+	height: 89px;
+	width: 309px;
+	float: left;
+}
+#nav_left {
+	width: 990px;
+	clear: both;
+	background-image: url(images/index_10.png);
+	background-repeat: repeat-x;
+	height: 42px;
+	z-index: 1;
+}
+#nav_bg {
+	background-image: url(index_10.png);
+	background-repeat: repeat-x;
+	height: 42px;
+	width: 990px;
+	float: left;
+}
+
+#nav {
+	float: left;
+	list-style-type: none;
+	width: 742px;
+	color: #300;
+	z-index: 3;
+	height: 42px;
+}
+#nav ul {
+	list-style-type: none;
+	float: none;
+	padding: 0px;
+}
+#footer {
+	background-color: #2a1500;
+	clear: both;
+	height: 56px;
+	width: 990px;
+	color: #aaa199;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 10px;
+}
+
+#nav ul li a:hover {
+	color: #af8318;
+}
+
+#nav ul li {
+	color: #CCC;
+	font-family: Verdana, Geneva, sans-serif;
+	display: inline;
+}
+#nav ul li a {
+	color: #600;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	float: right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 35px;
+	padding-bottom: 0px;
+	margin-top: -5px;
+}
+
+#menu {
+	float: right;
+	font-size: 15px;
+	list-style-type: none;
+	width: 440px;
+	color: #300;
+	clip: rect(auto,auto,auto,auto);
+	margin-top: 50px;
+}
+
+#menu ul {
+	list-style-type: none;
+	float: none;
+}
+
+#menu ul li{
+	color: #CCC;
+	font-family: Verdana, Geneva, sans-serif;
+	display: inline;
+}
+
+#menu ul li a {
+	color: #999;
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.content_about {
+	height: 318px;
+	width: 327px;
+	float: left;
+	background-image: url(images/index_17.png);
+	padding-top: 65px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+}
+#menu ul li a:hover {
+	color: #FFF;
+}
+
+
+
+#header {
+	background-color: #630;
+	width: 990px;
+	float: left;
+	height: 89px;
+}
+.header_bg {
+	background-image: url(index_02.png);
+	height: 89px;
+	width: 600px;
+	float: left;
+	background-repeat: no-repeat;
+}
+.header_icon {
+	float: right;
+	width: 81px;
+	height: 89px;
+}
+.t_yellow {
+	font-size: 13px;
+	color: #e0b827;
+}
+.t_gray {
+	color: #c9b4a2;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+
+.main_banner {
+	height: 360px;
+	width: 888px;
+	float: left;
+	background-color: #FFF;
+}
+
+
+#main {
+	background-color: #C69;
+	width: 990px;
+}
+#co {
+	height: 318px;
+	width: 990px;
+	float: left;
+}
+.co_a {
+	height: 318px;
+	width: 309px;
+	background-image: url(images/index_16.png);
+	float: left;
+}
+.co_b {
+	background-image: url(index_17.png);
+	float: left;
+	height: 318px;
+	width: 327px;
+}
+.co_c {
+	float: right;
+	height: 318px;
+	width: 354px;
+	background-image: url(index_18.png);
+	padding: 0px;
+}
+.co_bb {
+	height: 300px;
+	width: 290px;
+	z-index: 3;
+	font-size: 12px;
+	color: #c9b4a2;
+	padding-top: 60px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 25px;
+	line-height: 20px;
+}
+.co_cc {
+	font-size: 13px;
+	color: #ccb5a3;
+	padding-top: 65px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	height: 318px;
+	width: 300px;
+	line-height: 20px;
+	
+}
+
+.co_cc a:hover {
+	color: #FFFFFF;
+	}
+
+
+.main_banner_left {
+	height: 360px;
+	width: 51px;
+	float: left;
+	background-image: url(index_13.jpg);
+}
+.main_banner_right {
+	height: 360px;
+	width: 51px;
+	float: right;
+	background-color: #999;
+}
+#wrapper {
+}
+.main_banner_left {
+	background-image: url(images/index_13.jpg);
+	background-repeat: no-repeat;
+	height: 360px;
+	width: 51px;
+	float: left;
+}
+.main_top {
+	height: 23px;
+	width: 990px;
+	float: left;
+}
+.main_banner {
+	height: 360px;
+	width: 888px;
+	background-color: #300;
+	background-image: url(images/index_14.png);
+}
+.float_div {
+	font-size: 12px;
+	color: #cab4a2;
+	background-image: url(images/index_16.png);
+}
