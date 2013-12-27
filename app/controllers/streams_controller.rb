@@ -7,7 +7,7 @@ class StreamsController < ApplicationController
 
   def index
      begin
-       @latest_blog_posts = RSS::Parser.parse(open('http://blog.streams.tw/rss').read, false).items[0…5]
+       @latest_blog_posts = RSS::Parser.parse(open('http://blog.streams.tw/rss').read, false).items[0..3]
      rescue
        # Do nothing, just continue.  The view will skip the blog section if the feed is nil.
        @latest_blog_posts = nil

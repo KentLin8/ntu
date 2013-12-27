@@ -58,19 +58,15 @@
       <div class="co_c">
         <div class="co_cc">
 		<% unless @latest_blog_posts.nil? %>
-		 The latest <%= pluralize(@latest_blog_posts.count, “post”) %> from the blog.
-		 <ul>
 		  <% @latest_blog_posts.each do |post| %>
-		   <% if nil != post && post.respond_to?(:pubDate) %></span>
-			<li>
-			 <span class="t_yellow" ><%= time_ago_in_words(post.pubDate) %> ago 
-			 <span class="t_gray">
-			 <%= link_to post.title, post.link, :target => “_blank” %>
+             <span class="t_yellow" >  <%=post.pubDate %>  <% if nil != post && post.respond_to?(:pubDate) %></span>
+                   <br>
+             <span class="t_gray">
+			 <!--<%= link_to post.title, post.link, :target => '_blank' %>-->
+               <%= post.title[0..20] %> ...
 			 </span><br>
-			</li>
 		   <% end %>
 		  <% end %>
-		 </ul>
 		<% else %>
 		 <p>
 		  <em>No blog posts to show.</em>

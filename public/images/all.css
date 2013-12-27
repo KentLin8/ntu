@@ -1,6 +1,11 @@
 #wrapper {
 	width: 990px;
-	margin: 0 auto;
+	color: #704123;
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 	
 }
 .logo_s {
@@ -14,7 +19,6 @@
 	height: 56px;
 }
 .footer_left {
-	background-image: url(images/index_19.png);
 	background-repeat: no-repeat;
 	float: left;
 	height: 56px;
@@ -82,6 +86,7 @@
 
 #nav ul li a:hover {
 	color: #af8318;
+	background-color:#C93
 }
 
 #nav ul li {
@@ -194,8 +199,9 @@
 
 
 #main {
-	background-color: #C69;
+	background-color: #300;
 	width: 990px;
+	color: #C60;
 }
 #co {
 	height: 318px;
@@ -283,8 +289,62 @@
 	background-color: #300;
 	background-image: url(images/index_14.png);
 }
+.photo_main {
+	background-color: #C30;
+	height: auto;
+	width: 990px;
+}
+
 .float_div {
 	font-size: 12px;
 	color: #cab4a2;
 	background-image: url(images/index_16.png);
+}
+.content_left {
+	height: auto;
+	width: 197px;
+	float: left;
+}
+.content_banner_photo {
+	height: 154px;
+	width: 793px;
+	float: left;
+}
+.content_right {
+	height: auto;
+	width: 793px;
+	float: right;
+}
+.content_photo {
+	background-image: url(bg.png);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 793px;
+	float: right;
+	margin: 0px;
+}
+.photo_out {
+	margin-top: 20px;
+	margin-right: 80px;
+	margin-left: 65px;
+	margin-bottom: 20px;
+	height: auto;
+}
+.photo_s_title {
+	font-size: 18px;
+	color: #600;
+	padding: 2px;
+}
+.photo_s {
+	background-color: #FFF;
+	margin: 5px;
+	padding: 3px;
+	height: 134px;
+	width: 200px;
+	float: left;
+}
+.content_title {
+	height: 110px;
+	width: 793px;
+	background-image: url(content_title_photo.jpg);
 }
