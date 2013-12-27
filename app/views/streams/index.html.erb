@@ -12,43 +12,15 @@
   <style type="text/css" media="screen">#FlashID {visibility:hidden}</style></head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
-<div id="wrapper">
-  <div id="header">
-    <div class="logo"><img src="./images/index_01.png" width="309" height="89"></div>
-    <div class="header_bg">
-      <div id="menu"><ul>
-        <li><a href="https://www.facebook.com/streams.tw"><img src="./images/icon_f.png" width="20" height="20"></a></li>
-        <li><a href="http://blog.streams.tw/"><img src="./images/icon_t.png" width="21" height="20"></a></li>
-        <li><a href="mailto:info@streams.tw"><img src="./images/icon_m.png" width="19" height="19"></a></li>
-        <li><a href="/index_ok.html#">繁體中文</a></li>
-        <li><a href="/index_ok.html#">簡體中文</a></li>
-        <li><a href="/index_ok.html#">English</a></li>
-        <li><a href="http://ntu.streams.tw/">視差捲軸網頁體驗 </a></li>
+  <%= render :partial => "streams/header" %>
 
-      </ul></div>
-    </div>
-    <div class="header_icon"><img src="./images/index_03.png" width="81" height="89"></div>
-  </div>
-  <div id="nav_bg">
-
-    <div id="nav_left">
-      <div class="logo_s"><img src="./images/index_04.png" width="248" height="42"></div>
-
-      <div id="nav">
-        <ul><li><a href="/index_ok.html#">關於荒漠甘泉</a></li>
-          <li><a href="/index_ok.html#">極品美饌</a></li>
-          <li><a href="/photo">餐廳實景</a></li>
-          <li><a href="/index_ok.html#">分店介紹＆預約</a></li>
-          <li><a href="/index_ok.html#">看見荒漠甘泉</a></li></ul>
-
-      </div>
-    </div>
-    <div class="main_top"><img src="./images/index_12.png" width="990" height="23"></div>
+  <div class="main_top"><img src="./images/index_12.png" width="990" height="23"></div>
     <div id="main">
       <div class="main_banner_left"><img src="images/index_13.jpg" width="51" height="360"></div>
       <div class="main_banner"></div>
       <div class="main_banner_right"><img src="./images/index_15.png" width="51" height="360"> </div>
     </div>
+
     <div id="co">
       <div class="co_a">
         <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="309" height="318" style="visibility: inherit;">
@@ -77,29 +49,19 @@
         </object>
       </div>
       <div class="co_b">
-        <div class="co_bb"> <font color="#e3ba28" class="t_yellow">餐廳元素</font><span class="t_gray"><br>
+        <div class="co_bb">
+          <span class="t_yellow" >餐廳元素</span><span class="t_gray"><br>
       裝潢以原木與彩繪玻璃的架構組成，將東方與西方的建築精華完全呈現。荒漠甘泉堅信音樂可洗滌心靈累積的塵埃，因此餐廳內有黑膠唱片牆、頂級音響，讓您感受舌尖味蕾與心靈音籟的雙重饗宴。</span><br>
-          <font color="#e3ba28" class="t_yellow">創辦人的心聲<br>
-          </font><span class="t_gray">「當社會逐漸物化，台北被盲求名利私慾橫行的沙漠掩埋時，<br>
-      我們期盼能提供您一股清流甘泉。 」</span> <font color="#e3ba28"><br>
-          <span class="t_yellow">願景</span></font><br>
-          <span class="t_gray">在台灣開設100家音樂與音響，養生與愛心的主題店。</span><br>
+
         </div>
       </div>
       <div class="co_c">
-        <div class="co_cc"> <font color="#e3ba28" class="t_yellow">2013/12/12</font><span class="t_gray">裝潢以原木與彩繪玻璃的架構組成，將東方與西方的建築精華完全呈現。荒漠甘泉</span><br>
-          <font color="#e3ba28" class="t_yellow">2013/12/12</font><span class="t_gray">裝潢以原木與彩繪玻璃的架構組成，將東方與西方的建築精華完全呈現。荒漠甘泉</span><br>
-          <font color="#e3ba28" class="t_yellow"> 2013/12/12</font><span class="t_gray">裝潢以原木與彩繪玻璃的架構組成，將東方與西方的建築精華完全呈現。荒漠甘</span><br>
-          <font color="#e3ba28" class="t_yellow"> 2013/12/12</font><span class="t_gray">裝潢以原木與彩繪玻璃的架構組成，將東方與西方的建築精華完全呈現。荒漠甘</span><br>
+        <div class="co_cc">
+          <span class="t_yellow" >2013/12/12</span><span class="t_gray">裝潢以原木與彩繪玻璃的架構組成，將東方與西方的建築精華完全呈現。荒漠甘泉</span><br>
         </div>
       </div>
-    </div>
-    <div id="footer">
-      <div class="footer_left"></div>
-      <div class="footer_right">c 2013 荒漠甘泉Streams in the Desert</div>
 
-    </div>
-
+    <%= render :partial => "streams/footer" %>
 
 
     <!-- End Save for Web Slices -->
@@ -107,4 +69,4 @@
         swfobject.registerObject("FlashID");
     </script>
 
-  </div></div></body></html>
+  </div></body></html>
