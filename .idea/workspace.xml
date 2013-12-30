@@ -2,47 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/streams/about.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/streams/oo.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/streams/stores.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/streams/what_we_do.html.erb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="$PROJECT_DIR$/public/images/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_01-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_01-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_01-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_01-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_02-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_02-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_02-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_02-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_03-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_03-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_03-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_03-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_04-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_04-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_04-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_04-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_05-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_05-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_06-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_06-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_06-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_06-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_06-3.jpg" afterPath="$PROJECT_DIR$/public/photo/_06-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_06-4.jpg" afterPath="$PROJECT_DIR$/public/photo/_06-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_07-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_07-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_07-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_07-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_08-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_08-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_09-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_09-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_09-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_09-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_10-1.jpg" afterPath="$PROJECT_DIR$/public/photo/_10-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo/_10-2.jpg" afterPath="$PROJECT_DIR$/public/photo/_10-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/about_01.png" afterPath="$PROJECT_DIR$/public/images/about_01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/all.css" afterPath="$PROJECT_DIR$/public/images/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/index.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ntu.iml" afterPath="$PROJECT_DIR$/.idea/ntu.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/photo.html" afterPath="$PROJECT_DIR$/public/photo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/photos.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/photos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/streams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/streams_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_11-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_12-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_12-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_13-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_13-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_14-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_14-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_15-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_15-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_16-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_16-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_17-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_17-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_18-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_18-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_19-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_19-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_20-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_20-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_23-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_23-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_25-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_26-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_26-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_27-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_28-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_29-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_29-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_30-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_30-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_31-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_32-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_32-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_35-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_35-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_35-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_36-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_36-2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntu.iws" />
@@ -56,7 +65,7 @@
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388140538494" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388399581394" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388132233254" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388395943520" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -263,6 +272,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ntu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -847,15 +888,19 @@
       <created>1388140542404</created>
       <updated>1388140542404</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="index">
+      <created>1388399587357</created>
+      <updated>1388399587357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-7" width="961" height="776" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49944994" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28162816" sideWeight="0.67236024" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28162816" sideWeight="0.67236024" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38255033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32763976" sideWeight="0.50055003" order="7" side_tool="true" content_ui="tabs" />
