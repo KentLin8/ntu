@@ -2,56 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_11-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_12-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_12-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_13-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_13-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_14-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_14-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_15-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_15-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_16-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_16-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_17-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_17-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_18-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_18-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_19-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_19-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_20-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_20-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_22-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_23-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_23-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_24-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_25-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_26-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_26-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_27-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_28-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_29-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_29-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_30-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_30-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_31-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_32-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_32-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_35-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_35-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_35-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_36-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/photo/_36-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/add_map.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/banner_about.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/content_title_about.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/content_title_add.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/content_title_food.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/content_title_see.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntu.iws" />
@@ -65,7 +22,7 @@
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388399581394" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388399666832" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388132233254" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388395943520" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -105,7 +62,7 @@
       <file leaf-file-name="what_we_do.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/streams/what_we_do.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.6583072">
+            <state line="34" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.79937303">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -303,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="photo" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -892,7 +849,11 @@
       <created>1388399587357</created>
       <updated>1388399587357</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="index">
+      <created>1388399671639</created>
+      <updated>1388399671639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1106,7 +1067,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streams/what_we_do.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.6583072">
+        <state line="34" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.79937303">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
