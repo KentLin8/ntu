@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>fancyBox - Fancy jQuery Lightbox Alternative | Demonstration</title>
+  <title>Photos</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 
@@ -58,22 +58,69 @@
       .fancybox-custom .fancybox-skin {
           box-shadow: 0 0 30px #ffee54;
       }
-
-      body {
-          max-width: 300px;
-          margin: 0 auto;
-      }
   </style>
-</head>
-<body>
-<h1>fancyBox</h1>
 
-<p>
-  <a class="streamsPhotos" href="/photo/01-1.JPG" data-fancybox-group="gallery" title="test1"><img src="/photo/_01-1.jpg" alt="alt1" /></a>
-  <a class="streamsPhotos" href="/photo/02-1.JPG" data-fancybox-group="gallery" title="test2"><img src="/photo/_02-1.jpg" alt="alt2" /></a>
-  <a class="streamsPhotos" href="/photo/03-1.JPG" data-fancybox-group="gallery" title="ccccccc"><img src="/photo/_03-1.jpg" alt="alt3" /></a>
-  <a class="streamsPhotos" href="/photo/04-1.JPG" data-fancybox-group="gallery" title="dddddd"><img src="/photo/_04-1.jpg" alt="alt4" /></a>
-</p>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+<div id="wrapper">
+  <%= render :partial => 'streams/header' %>
+
+  <div class="photo_main">
+    <div class="content_left" style="float:left;">
+      <img src="/images/about_01.png" width="197" height="800">
+      <div style="height:100%; width:100%">&nbsp;</div>
+    </div>
+    <div class="content_right" style="float:right">
+      <div class="content_banner_photo">
+        <img src="/images/about_02.png" width="793" height="154"></div>
+
+      <div class="content_photo">
+        <div class="content_title"></div>
+        <div class="photo_out">
+          <span class="photo_s_title"> 大門外觀 </span>  滑鼠移動後顯示照片中的文字
+          <% for row in 2..$my_photos_list.num_rows %>
+              <% if $my_photos_list[row,1] == '1' %>
+              <div class="photo_s">
+                <a class="streamsPhotos" href="/photo/<%=$my_photos_list[row,2]%>.JPG" data-fancybox-group="gallery" title="<%=$my_photos_list[row,3]%>">
+                  <img src="/photo/_<%=$my_photos_list[row,2]%>.jpg" width="200" height="134"> </a>
+              </div>
+              <% end %>
+          <% end %>
+
+        </div>
+        <div class="photo_out">
+          <div class="photo_s_title"> 餐廳室內造景 </div>
+          <% for row in 2..$my_photos_list.num_rows %>
+              <% if $my_photos_list[row,1] == '2' %>
+                  <div class="photo_s">
+                    <a class="streamsPhotos" href="/photo/<%=$my_photos_list[row,2]%>.JPG" data-fancybox-group="gallery" title="<%=$my_photos_list[row,3]%>">
+                      <img src="/photo/_<%=$my_photos_list[row,2]%>.jpg" width="200" height="134"> </a>
+                  </div>
+              <% end %>
+          <% end %>
+
+        </div>
+
+        <div class="photo_out">
+          <div class="photo_s_title"> 地下室內造景 </div>
+          <% for row in 2..$my_photos_list.num_rows %>
+              <% if $my_photos_list[row,1] == '3' %>
+                  <div class="photo_s">
+                    <a class="streamsPhotos" href="/photo/<%=$my_photos_list[row,2]%>.JPG" data-fancybox-group="gallery" title="<%=$my_photos_list[row,3]%>">
+                      <img src="/photo/_<%=$my_photos_list[row,2]%>.jpg" width="200" height="134"> </a>
+                  </div>
+              <% end %>
+          <% end %>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <%= render :partial => 'streams/footer' %>
+
+</div>
+
 
 
 </body>

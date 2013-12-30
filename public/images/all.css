@@ -290,7 +290,7 @@
 	background-image: url(images/index_14.png);
 }
 .photo_main {
-	background-color: #C30;
+	background-color: #704123;
 	height: auto;
 	width: 990px;
 }
@@ -323,6 +323,7 @@
 	float: right;
 	margin: 0px;
 }
+
 .photo_out {
 	margin-top: 20px;
 	margin-right: 80px;
@@ -330,10 +331,57 @@
 	margin-bottom: 20px;
 	height: auto;
 }
+.about_out {
+	margin-top: 20px;
+	margin-right: 80px;
+	margin-left: 65px;
+	margin-bottom: 0px;
+	height: 500px;
+	padding-bottom: 100px;
+	background-image: url(about_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.about_out_no_bg {
+	margin-top: 20px;
+	margin-right: 80px;
+	margin-left: 65px;
+	margin-bottom: 0px;
+	height: 1000px;
+	padding-bottom: 100px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.about_p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 25px;
+	margin-top: 2px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.add_right {
+	float: none;
+}
+.word_title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #636;
+}
+
+
 .photo_s_title {
 	font-size: 18px;
-	color: #600;
-	padding: 2px;
+	color: #8e0000;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 0px;
 }
 .photo_s {
 	background-color: #FFF;
@@ -347,4 +395,14 @@
 	height: 110px;
 	width: 793px;
 	background-image: url(content_title_photo.jpg);
+}
+.content_title_all {
+	height: 110px;
+	width: 793px;
+	background-image: url(banner_about.jpg);
+}
+.photo_out_line {
+	clear: both;
+	height: 1px;
+	width: 700px;
 }

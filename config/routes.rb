@@ -5,6 +5,12 @@ Ntu::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'streams#index'
   get 'streams/photos'
+  get 'streams/stores'
+  get 'streams/what_we_do'
+  get 'streams/about'
+  get 'streams/menu'
+
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
