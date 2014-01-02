@@ -53,34 +53,4 @@ class StreamsController < ApplicationController
 
   end
 
-  require 'google/api_client'
-# download file
-  def download(file_id)
-    # Get your credentials from the APIs Console
-
-
-# Create a new API client & load the Google Drive API
-    @client = Google::APIClient.new
-    @drive = @client.discovered_api('drive', 'v2')
-
-# Request authorization
-    @client.authorization.client_id = '637482934469-jgn3jfs8ve8thomkeor69asfbp0vqg0s.apps.googleusercontent.com'
-    @client.authorization.client_secret = 'ADt-8uGe-drNIGJtMOOzH4fE'
-    @client.authorization.scope = 'https://www.googleapis.com/auth/drive'
-    @client.authorization.redirect_uri = 'urn:ietf:wg:oauth:2.0:oob'
-
-# Exchange authorization code for access token
-    @client.authorization.refresh_token = '1/2jVXqxXg6op87Z7friatr3sjNCLlwIH1FfLSMeRt55I'
-    @client.authorization.fetch_access_token!
-
-    download_url = "https://docs.google.com/feeds/download/spreadsheets/Export?key=#{file_id}&exportFormat=tsv&gid=0"
-    result = @client.execute(:uri => download_url)
-    if result.success?
-      result.body.force_encoding 'UTF-8'
-    else
-      Log.error('download fail...')
-      nil
-    end
-  end
-
 end
