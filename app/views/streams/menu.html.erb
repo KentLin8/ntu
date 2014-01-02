@@ -7,23 +7,87 @@
     <div class="content_right" style="float:right">
       <div class="content_banner_photo"><img src="/images/banner_about.jpg" width="793" height="154"></div>
 
-      <div class="content_photo">
+
+      <div class="content_menu">
         <div class="content_title_about"><img src="/images/menu_03.jpg" width="793" height="117"></div>
-        <div class="menu_out"> <div class="word_big_title">
-          <p>田園交響曲</p>
-          <p class="word_big_title">$480     $580      $680</p>
-        </div>
-          <div class="word_title_apace_center"> 醋飲</div>
-          <p class="word_pp_space">養生醋飲</p>
-          <div class="word_title_apace_center"> 醋飲</div>
-          <p class="word_pp_space">養生醋飲</p>
+        <div class="next_bg">
+          <div class="H_center">
+            <div class="next_prev"> <img id="prev_package" src="/images/next_prev_03.png" width="100" height="25"></div>
+            <div class="next_prev"><img src="/images/next_prev_05.png" width="4" height="25"></div>
+            <div class="next_prev"> <img id="next_package" src="/images/next_prev_07.png" width="100" height="25"></div>
+          </div>
         </div>
 
+
+        <div class="menu_content_bg">
+          <div class="menu_content_left"><a   href="#"> <img src="/images/prev.png" class="unselectable" width="34" height="59"></a></div>
+          <section>
+            <% @packages.each do |package| %>
+              <div class="menu_out">
+                <p class="word_big_title">  <%= package[:name] %>   </p>
+                <% package[:dishes].each do |dish| %>
+                    <div class="word_title_apace_center">
+                      <%= dish[:link] ? dish[:name] : %Q(<a  href="#{dish[:link]}">#{dish[:name]}</a>) %>
+                    </div>
+                    <p class="word_pp_space">
+                      <%= dish[:introduction] %>
+                    </p>
+                <% end %>
+              </div>
+            <% end %>
+          </section>
+
+          <div class="menu_content_left"><a  href="#" ><img src="/images/next.png" class="unselectable" width="34" height="59"></a></div>
+        </div>
+
+
+        <div class="content_title_about"><img src="images/menu_08.jpg" width="793" height="137"></div>
       </div>
-      <span class="content_title_about"><img src="/images/menu_08.jpg" width="793" height="137"></span> </div>
+    </div>
   </div>
+
     <%= render :partial => 'streams/footer' %>
 </div>
+
+<script>
+    $(function(){
+        document.title = '佳餚美饌｜荒漠甘泉 大學口店';
+        var packages = $('.menu_out');
+        var package_num = 0;
+
+        var max_height = 0;
+        packages.each(function(){
+            var h = $(this).height();
+            max_height = h > max_height ? h : max_height;
+        });
+        $('body').css('height', (max_height + 50) + 'px');
+
+        packages.hide();
+        packages.eq(0).show();
+
+        $('#next_package').click(function(){
+
+            packages.eq(package_num).fadeOut();
+            package_num++;
+            if(packages.length === package_num){
+                package_num = 0;
+            }
+            packages.eq(package_num).fadeIn();
+            return false;
+        });
+
+        $('#prev_package').click(function(){
+            packages.eq(package_num).fadeOut();
+            package_num--;
+            if(package_num === -1){
+                package_num = packages.length - 1;
+            }
+            packages.eq(package_num).fadeIn();
+            return false;
+        });
+    });
+
+</script>
 
 
 </body>
