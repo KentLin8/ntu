@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/next_prev_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/next_prev_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/next_prev_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/prev.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/menu.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/menu.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntu.iws" />
@@ -20,7 +16,7 @@
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388654800809" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388654846462" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388412983610" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388424837372" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -57,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="menu.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/streams/menu.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="102" selection-start="1843" selection-end="1855" vertical-scroll-proportion="-10.0">
+            <state line="35" column="36" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.185567">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -68,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="streams_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="streams_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/streams_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="53" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.654224">
+            <state line="50" column="53" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,9 +108,9 @@
         <option value="$PROJECT_DIR$/app/views/streams/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/streams/_header.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/streams/menu.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/controllers/streams_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/streams/menu.html.erb" />
       </list>
     </option>
   </component>
@@ -706,15 +702,19 @@
       <created>1388654804185</created>
       <updated>1388654804185</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="index">
+      <created>1388654850116</created>
+      <updated>1388654850116</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-7" width="961" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49944994" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2519252" sideWeight="0.85559005" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2519252" sideWeight="0.85559005" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38255033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763976" sideWeight="0.50055003" order="7" side_tool="true" content_ui="tabs" />
@@ -897,19 +897,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/streams/menu.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/streams_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="102" selection-start="1843" selection-end="1855" vertical-scroll-proportion="-10.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="50" column="53" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/streams_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/streams/menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="53" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.654224">
-          <folding />
+        <state line="35" column="36" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.185567">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
