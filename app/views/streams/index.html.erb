@@ -27,7 +27,7 @@
 
 </head>
 
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
 <div id="wrapper">
   <%= render :partial => 'streams/header' %>
 
@@ -35,7 +35,35 @@
   </div>
     <div id="main">
       <div class="main_banner_left"><img src="images/index_13.jpg" width="51" height="360"></div>
-      <div class="main_banner"></div>
+
+      <div class="main_banner">
+        <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="888" height="360">
+          <param name="movie" value="banner_ok.swf">
+          <param name="quality" value="high">
+          <param name="wmode" value="opaque">
+          <param name="swfversion" value="6.0.65.0">
+          <!-- 此 param 標籤會提示使用 Flash Player 6.0 r65 和更新版本的使用者下載最新版本的 Flash Player。如果您不想讓使用者看到這項提示，請將其刪除。 -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf">
+          <!-- 下一個物件標籤僅供非 IE 瀏覽器使用。因此，請使用 IECC 將其自 IE 隱藏。 -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="banner_ok.swf" width="888" height="360">
+            <!--<![endif]-->
+            <param name="quality" value="high">
+            <param name="wmode" value="opaque">
+            <param name="swfversion" value="6.0.65.0">
+            <param name="expressinstall" value="Scripts/expressInstall.swf">
+            <!-- 瀏覽器會為使用 Flash Player 6.0 和更早版本的使用者顯示下列替代內容。 -->
+            <div>
+              <h4>這個頁面上的內容需要較新版本的 Adobe Flash Player。</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="取得 Adobe Flash Player" width="112" height="33" /></a></p>
+            </div>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
+      </div>
+
+
       <div class="main_banner_right"><img src="./images/index_15.png" width="51" height="360"> </div>
     </div>
 
@@ -80,7 +108,7 @@
              <span class="t_yellow" >  <%=post.pubDate %>  <% if nil != post && post.respond_to?(:pubDate) %></span>
                    <br>
              <span class="t_gray">
-              <a id="opener" href="<%=post.link%>" target ='_blank'><%= post.title[0..20] %> ...</a>
+              <a id="opener" class="t_gray" href="<%=post.link%>" target ='_blank'><%= post.title[0..20] %> ...</a>
                <!--<div id="dialog" title="Basic dialog">-->
                  <!--<p> <%=post.description %>  </p>-->
                <!--</div>-->
