@@ -4,6 +4,27 @@
   <title>確認板首頁</title>
   <script src="./images/swfobject_modified.js" type="text/javascript"></script>
   <style type="text/css" media="screen">#FlashID {visibility:hidden}</style>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+      $(function() {
+          $( "#dialog" ).dialog({
+              autoOpen: false,
+              show: {
+                  effect: "blind",
+                  duration: 1000
+              },
+              hide: {
+                  effect: "explode",
+                  duration: 1000
+              }
+          });
+
+          $( "#opener" ).click(function() {
+              $( "#dialog" ).dialog( "open" );
+          });
+      });
+  </script>
+
 </head>
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
@@ -59,8 +80,10 @@
              <span class="t_yellow" >  <%=post.pubDate %>  <% if nil != post && post.respond_to?(:pubDate) %></span>
                    <br>
              <span class="t_gray">
-			 <!--<%= link_to post.title, post.link, :target => '_blank' %>-->
-               <%= post.title[0..20] %> ...
+              <a id="opener" href="<%=post.link%>" target ='_blank'><%= post.title[0..20] %> ...</a>
+               <!--<div id="dialog" title="Basic dialog">-->
+                 <!--<p> <%=post.description %>  </p>-->
+               <!--</div>-->
 			 </span><br>
 		   <% end %>
 		  <% end %>

@@ -36,4 +36,8 @@ class StreamsController < ApplicationController
 
   end
 
+  def menu
+
+  end
+
 end

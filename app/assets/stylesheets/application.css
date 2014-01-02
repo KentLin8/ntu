@@ -499,3 +499,16 @@ body {
     height: 1px;
     width: 700px;
 }
+
+.nav_bu_bg {
+    color: #999;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: #E09710;
+    height: 42px;
+}
