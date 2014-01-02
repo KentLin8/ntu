@@ -47,8 +47,8 @@ class StreamsController < ApplicationController
 
     @packages = []
     for row in 2..$my_menu_list.num_rows
-      @packages << {name: $my_Menu_list[row,1], dishes: []} unless $my_Menu_list[row,1].blank?
-      @packages.last[:dishes] << {name: $my_Menu_list[row,2], introduction: $my_Menu_list[row,3], link: $my_Menu_list[row,4]}
+      @packages << {name: $my_menu_list[row,1], dishes: []} unless $my_menu_list[row,1].blank?
+      @packages.last[:dishes] << {name: $my_menu_list[row,2], introduction: $my_menu_list[row,3], link: $my_menu_list[row,4]}
     end
 
   end
