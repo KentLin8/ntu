@@ -522,6 +522,7 @@ a:active {
     font-family: Verdana, Geneva, sans-serif;
     padding: 0px;
     width: 600px;
+    float: left;
 }
 
 .word_pp {

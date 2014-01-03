@@ -64,7 +64,7 @@
 
 
 <div id="wrapper">
-  <%= render :partial => 'streams/header' %>
+  <%= render  partial: 'streams/header', locals: { page: 'photos' } %>
 
   <div class="photo_main">
     <div class="content_left" style="float:left;">
@@ -78,7 +78,7 @@
       <div class="content_photo">
         <div class="content_title"></div>
         <div class="photo_out">
-          <!--<div class="photo_s_title"> 大門外觀 </div>-->
+          <div class="photo_s_title"> 大門外觀 </div>
           <!--滑鼠移動後顯示照片中的文字-->
           <% for row in 2..$my_photos_list.num_rows %>
               <% if $my_photos_list[row,1] == '1' %>
@@ -91,7 +91,7 @@
 
         </div>
         <div class="photo_out">
-          <!--<div class="photo_s_title"> 餐廳室內造景 </div>  <br>-->
+          <br> <div class="photo_s_title"> 餐廳室內造景 </div>
           <% for row in 2..$my_photos_list.num_rows %>
               <% if $my_photos_list[row,1] == '2' %>
                   <div class="photo_s">
@@ -104,7 +104,8 @@
         </div>
 
         <div class="photo_out">
-          <!--<div class="photo_s_title"> 地下室內造景 </div>    <br>-->
+          <br> <div class="photo_s_title" style="float: left"> 地下室內造景 </div>
+
           <% for row in 2..$my_photos_list.num_rows %>
               <% if $my_photos_list[row,1] == '3' %>
                   <div class="photo_s">

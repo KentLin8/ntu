@@ -22,11 +22,11 @@
       <div class="logo_s"><img src="/images/index_04.png" width="248" height="42"></div>
 
       <div id="nav">
-        <ul><li><a href="/streams/about" class="nav_bold">關於荒漠甘泉</a></li>
-          <li><a href="/streams/menu">極品美饌</a></li>
-          <li><a href="/streams/photos">餐廳實景</a></li>
-          <li><a href="/streams/stores">分店介紹＆預約</a></li>
-          <li><a href="/streams/what_we_do">看見荒漠甘泉</a></li></ul>
+        <ul><li><a href="/streams/about" <%= page=='about' ? 'class=nav_bold':'' %>>關於荒漠甘泉</a></li>
+          <li><a  href="/streams/menu" <%= page=='menu' ? 'class=nav_bold':'' %> >極品美饌</a></li>
+          <li><a href="/streams/photos" <%= page=='photos' ? 'class=nav_bold':'' %> >餐廳實景</a></li>
+          <li><a href="/streams/stores" <%= page=='stores' ? 'class=nav_bold':'' %> >分店介紹＆預約</a></li>
+          <li><a href="/streams/what_we_do" <%= page=='what' ? 'class=nav_bold':'' %>>看見荒漠甘泉</a></li></ul>
       </div>
     </div>
   </div>
