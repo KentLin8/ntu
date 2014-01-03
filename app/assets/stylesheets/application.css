@@ -87,7 +87,7 @@ a:active {
     background-repeat: repeat-x;
     height: 42px;
     width: 990px;
-    float: left;
+    float: right;
 }
 
 #nav {
@@ -100,8 +100,8 @@ a:active {
 }
 #nav ul {
     list-style-type: none;
-    float: none;
-    padding: 0px;
+    float: left;
+    padding: 0px 34px;
 }
 #footer {
     background-color: #2a1500;
@@ -131,7 +131,7 @@ a:active {
     font-size: 16px;
     text-decoration: none;
     display: block;
-    float: right;
+    float: left;
     font-family: Georgia, "Times New Roman", Times, serif;
     padding-left: 25px;
     margin-right: 0px;
@@ -522,7 +522,6 @@ a:active {
     font-family: Verdana, Geneva, sans-serif;
     padding: 0px;
     width: 600px;
-    float: left;
 }
 
 .word_pp {

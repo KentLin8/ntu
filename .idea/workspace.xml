@@ -5,32 +5,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/_header.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/about.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/about.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/menu.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/menu.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/photos.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/photos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/stores.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/stores.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/what_we_do.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/what_we_do.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/index.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387525289588" ignored="false" />
     <file path="/index.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387551577259" ignored="false" />
-    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388731598076" ignored="false" />
+    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734448562" ignored="false" />
     <file path="/routes.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388396041092" ignored="false" />
     <file path="/streams_controller.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388648154961" ignored="false" />
     <file path="/a.js" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576354785" ignored="false" />
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388659452421" ignored="false" />
-    <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388657687986" ignored="false" />
-    <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388730174347" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388732696870" ignored="false" />
+    <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734461211" ignored="false" />
+    <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734260173" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
     <file path="/fragment.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388389548701" ignored="false" />
     <file path="/about.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388711958787" ignored="false" />
     <file path="/Gemfile" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388644436249" ignored="false" />
     <file path="/menu.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388711865518" ignored="false" />
-    <file path="/application.css" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388652192542" ignored="false" />
+    <file path="/application.css" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388736640911" ignored="false" />
     <file path="/stores.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388711926852" ignored="false" />
     <file path="/what_we_do.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388711993044" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,10 +49,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="524" column="0" selection-start="9538" selection-end="9538" vertical-scroll-proportion="0.5279851">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/streams/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="57" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-16.25">
+            <state line="8" column="48" selection-start="592" selection-end="592" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -64,7 +70,7 @@
       <file leaf-file-name="photos.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/streams/photos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="49" selection-start="4068" selection-end="4079" vertical-scroll-proportion="-8.458333">
+            <state line="66" column="64" selection-start="2345" selection-end="2351" vertical-scroll-proportion="-5.9583335">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -83,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menu.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/streams/menu.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="55" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.6529563">
+            <state line="22" column="45" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -104,7 +110,7 @@
       <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/streams/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="66" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.625">
+            <state line="11" column="35" selection-start="603" selection-end="616" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -122,7 +128,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/streams/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="50" selection-start="2919" selection-end="2919" vertical-scroll-proportion="-45.625">
+            <state line="31" column="62" selection-start="882" selection-end="882" vertical-scroll-proportion="-19.375">
               <folding />
             </state>
           </provider>
@@ -158,14 +164,14 @@
         <option value="$PROJECT_DIR$/app/views/streams/_left.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/streams_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/streams/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/streams/stores.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/streams/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/streams/what_we_do.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/streams/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/streams/photos.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/streams/menu.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/streams/photos.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/streams/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/streams/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/streams/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -777,7 +783,11 @@
       <created>1388659456972</created>
       <updated>1388659456972</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="index">
+      <created>1388732703899</created>
+      <updated>1388732703899</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -785,13 +795,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49944994" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25082508" sideWeight="0.85559005" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25082508" sideWeight="0.85559005" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38255033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763976" sideWeight="0.50055003" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.73136646" sideWeight="0.49944994" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14440994" sideWeight="0.50935096" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14440994" sideWeight="0.50935096" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906833" sideWeight="0.8272827" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -926,9 +936,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/streams/what_we_do.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="53" selection-start="367" selection-end="367" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/streams/menu.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="45" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/streams/photos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="64" selection-start="2345" selection-end="2351" vertical-scroll-proportion="-5.9583335">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streams/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="50" selection-start="2919" selection-end="2919" vertical-scroll-proportion="-45.625">
+        <state line="31" column="62" selection-start="882" selection-end="882" vertical-scroll-proportion="-19.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/streams/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="592" selection-end="592" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
@@ -944,44 +984,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streams/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="66" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.625">
+        <state line="11" column="35" selection-start="603" selection-end="616" vertical-scroll-proportion="-6.875">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/streams/what_we_do.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="367" selection-end="367" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/streams/photos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="49" selection-start="4068" selection-end="4079" vertical-scroll-proportion="-8.458333">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="497" column="30" selection-start="9065" selection-end="9065" vertical-scroll-proportion="17.697044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/streams/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/streams/menu.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.6529563">
+        <state line="524" column="0" selection-start="9538" selection-end="9538" vertical-scroll-proportion="0.5279851">
           <folding />
         </state>
       </provider>
