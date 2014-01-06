@@ -407,7 +407,7 @@ a:active {
 }
 
 .next_bg {
-    background-image: url(menu_06.jpg);
+    background-image: url(/images/menu_06.jpg);
     background-repeat: repeat;
     height: 50px;
     width: 793px;
@@ -438,7 +438,7 @@ a:active {
     float: left;
 }
 .menu_content_bg {
-    background-image: url(menu_06.jpg);
+    background-image: url(/images/menu_06.jpg);
     background-repeat: repeat-y;
     height: 600px;
 }
