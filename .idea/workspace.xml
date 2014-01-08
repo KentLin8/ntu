@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/photos.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/streams.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/photos.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/photos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/streams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/streams_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387525289588" ignored="false" />
     <file path="/index.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387551577259" ignored="false" />
-    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389194154962" ignored="false" />
+    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389202140113" ignored="false" />
     <file path="/routes.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388396041092" ignored="false" />
     <file path="/streams_controller.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389188682598" ignored="false" />
     <file path="/a.js" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576354785" ignored="false" />
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389174655539" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389194413471" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734461211" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734260173" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -72,7 +69,7 @@
       <file leaf-file-name="photos.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/streams/photos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="52" selection-start="129" selection-end="129" vertical-scroll-proportion="0.3785489">
+            <state line="84" column="31" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.91957104">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -817,7 +814,11 @@
       <created>1389174660966</created>
       <updated>1389174660966</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="index">
+      <created>1389194419672</created>
+      <updated>1389194419672</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -825,7 +826,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49944994" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38283828" sideWeight="0.75621116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530253" sideWeight="0.75621116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38255033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32763976" sideWeight="0.50055003" order="7" side_tool="true" content_ui="tabs" />
@@ -1014,7 +1015,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streams/photos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="129" selection-end="129" vertical-scroll-proportion="0.3785489">
+        <state line="84" column="31" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.91957104">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
