@@ -70,6 +70,7 @@
   <script type="text/javascript">
 
       $(".content_photo").on('focusin', function(){
+          $this = $(this);
           $("a.streamsPhotos").fancybox({
               wrapCSS    : "fancybox-custom",
               openEffect : "elastic",
@@ -80,6 +81,7 @@
               nextEffect  : "fade",
               prevSpeed	  : "slow",
               nextSpeed	  : "slow",
+              href: $this.attr('href'),
 
               helpers: {
                   title : {
