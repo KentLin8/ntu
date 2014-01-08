@@ -11,7 +11,48 @@ class StreamsController < ApplicationController
       # First worksheet of https://docs.google.com/spreadsheet/ccc?key=pz7XtlQC-PYx-jrVMJErTcg
       $my_photos_list =  google_session.spreadsheet_by_key('0AjhbVFj0RYrOdGw4c3Nvb2pDT2h0ODFPRGFjcDRTM2c').worksheets[0]
     end
+    @page_title = '荒漠甘泉餐廳-Photos'
 
+    @page_header =  '
+      <!-- Add mousewheel plugin (this is optional) -->
+      <script type="text/javascript" src="/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+      <!-- Add fancyBox main JS and CSS files -->
+      <script type="text/javascript" src="/source/jquery.fancybox.js?v=2.1.5"></script>
+      <link rel="stylesheet" type="text/css" href="/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+      <!-- Add Button helper (this is optional) -->
+      <link rel="stylesheet" type="text/css" href="/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+      <script type="text/javascript" src="/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+      <!-- Add Thumbnail helper (this is optional) -->
+      <link rel="stylesheet" type="text/css" href="/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+      <script type="text/javascript" src="/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>'
+
+    @page_header +=  '
+    <script type="text/javascript">
+      $(window).ready(function() {
+        $(".streamsPhotos").fancybox(
+            {
+                wrapCSS    : "fancybox-custom",
+                openEffect : "elastic",
+                openSpeed  : 500,
+                closeEffect : "elastic",
+                closeSpeed  : 500,
+                prevEffect	: "fade",
+                nextEffect	: "fade",
+                prevSpeed	: "slow",
+                nextSpeed	: "slow",
+
+                helpers: {
+                  title : {
+                  type : "float"
+                  },
+                  overlay : {   speedOut : 1000  }
+                }
+            } );
+        });
+      </script>'
 
   end
 
