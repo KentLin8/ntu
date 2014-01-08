@@ -1,7 +1,36 @@
 
 
 
+  <script type="text/javascript">
+      $(window).ready(function() {
+          /*
+           *   image gallery.
+           */
 
+          $('.streamsPhotos').fancybox(
+                  {
+                      wrapCSS    : 'fancybox-custom',
+                      openEffect : 'elastic',
+                      openSpeed  : 500,
+                      closeEffect : 'elastic',
+                      closeSpeed  : 500,
+                      prevEffect	: 'fade',
+                      nextEffect	: 'fade',
+                      prevSpeed	: 'slow',
+                      nextSpeed	: 'slow',
+
+                      helpers: {
+                          title : {
+                              type : 'float'
+                          },
+                          overlay : {
+                              speedOut : 1000
+                          }
+
+                      }
+                  } );
+      });
+  </script>
   <style type="text/css">
       .fancybox-custom .fancybox-skin {
           box-shadow: 0 0 30px #ffee54;
@@ -70,3 +99,29 @@
 </div>
 
 
+  <script type="text/javascript">
+      $(window).ready(function() {
+          $("a.streamsPhotos").live("click", function(e){
+              e.preventDefault();
+              alert("11111");
+              $("a.streamsPhotos").fancybox( {
+                  wrapCSS    : "fancybox-custom",
+                  openEffect : "elastic",
+                  openSpeed  : 500,
+                  closeEffect : "elastic",
+                  closeSpeed  : 500,
+                  prevEffect  : "fade",
+                  nextEffect  : "fade",
+                  prevSpeed	  : "slow",
+                  nextSpeed	  : "slow",
+
+                  helpers: {
+                      title : {
+                          type : "float"
+                      },
+                      overlay : {   speedOut : 1000  }
+                  }
+              } );
+          });
+      });
+  </script>

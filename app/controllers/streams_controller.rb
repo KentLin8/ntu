@@ -1,4 +1,5 @@
 class StreamsController < ApplicationController
+  layout "photos", :only => :photos
   require 'rss'
   
   def photos
@@ -29,30 +30,7 @@ class StreamsController < ApplicationController
       <link rel="stylesheet" type="text/css" href="/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
       <script type="text/javascript" src="/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>'
 
-    @page_header +=  '
-    <script type="text/javascript">
-      $(window).ready(function() {
-        $(".streamsPhotos").fancybox(
-            {
-                wrapCSS    : "fancybox-custom",
-                openEffect : "elastic",
-                openSpeed  : 500,
-                closeEffect : "elastic",
-                closeSpeed  : 500,
-                prevEffect	: "fade",
-                nextEffect	: "fade",
-                prevSpeed	: "slow",
-                nextSpeed	: "slow",
-
-                helpers: {
-                  title : {
-                  type : "float"
-                  },
-                  overlay : {   speedOut : 1000  }
-                }
-            } );
-        });
-      </script>'
+    @page_header +=  ''
 
   end
 
