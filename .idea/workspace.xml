@@ -16,7 +16,7 @@
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389194413471" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389203217292" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734461211" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734260173" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -69,7 +69,7 @@
       <file leaf-file-name="photos.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/streams/photos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="31" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.91957104">
+            <state line="70" column="41" selection-start="2594" selection-end="2594" vertical-scroll-proportion="-0.44235924">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -818,7 +818,11 @@
       <created>1389194419672</created>
       <updated>1389194419672</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="index">
+      <created>1389203221979</created>
+      <updated>1389203221979</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -911,12 +915,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/streams/what_we_do.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="367" selection-end="367" vertical-scroll-proportion="0.30612245" />
+        <state line="7" column="53" selection-start="367" selection-end="367" vertical-scroll-proportion="0.30612245">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streams/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="62" selection-start="882" selection-end="882" vertical-scroll-proportion="1.26703" />
+        <state line="31" column="62" selection-start="882" selection-end="882" vertical-scroll-proportion="1.26703">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
@@ -1015,7 +1023,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streams/photos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="31" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.91957104">
+        <state line="70" column="41" selection-start="2594" selection-end="2594" vertical-scroll-proportion="-0.44235924">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
