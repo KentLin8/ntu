@@ -84,53 +84,29 @@
 
 
   <script type="text/javascript">
-  $(document).ready(function() {
-      $(".content_photo").on('focusin', function(){
-//          alert("1111");
-          $this = $(this);
-          $("a.streamsPhotos").fancybox({
+
+
+      $(document).ready(function() {
+          $(".streamsPhotos").fancybox({
               wrapCSS    : "fancybox-custom",
               openEffect : "elastic",
               openSpeed  : 500,
               closeEffect : "elastic",
               closeSpeed  : 500,
-              prevEffect  : "fade",
-              nextEffect  : "fade",
-              prevSpeed	  : "slow",
-              nextSpeed	  : "slow",
-              href: $this.attr('href'),
+              prevEffect	: "fade",
+              nextEffect	: "fade",
+              prevSpeed	: "slow",
+              nextSpeed	: "slow",
 
               helpers: {
                   title : {
                       type : "float"
                   },
-                  overlay : {   speedOut : 1000  }
+                  overlay : {
+                      speedOut : 1000
+                  }
               }
+
           });
       });
-  });
-//      $(window).ready(function() {
-//          $("a.streamsPhotos").live("focusin", function(e){
-//              e.preventDefault();
-//              alert("11111");
-//              $("a.streamsPhotos").fancybox( {
-//                  wrapCSS    : "fancybox-custom",
-//                  openEffect : "elastic",
-//                  openSpeed  : 500,
-//                  closeEffect : "elastic",
-//                  closeSpeed  : 500,
-//                  prevEffect  : "fade",
-//                  nextEffect  : "fade",
-//                  prevSpeed	  : "slow",
-//                  nextSpeed	  : "slow",
-//
-//                  helpers: {
-//                      title : {
-//                          type : "float"
-//                      },
-//                      overlay : {   speedOut : 1000  }
-//                  }
-//              });
-//          });
-//      });
   </script>
