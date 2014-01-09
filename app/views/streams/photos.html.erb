@@ -84,7 +84,7 @@
 
 
   <script type="text/javascript">
-
+    $(document).ready(function() {
       $(".photo_out").on('focusin', function(){
           $("a.streamsPhotos").fancybox({
               wrapCSS    : "fancybox-custom",
@@ -106,5 +106,5 @@
               }
           });
       });
-
+    }); // closes ready
   </script>
