@@ -143,6 +143,7 @@ a:active {
     padding-bottom: 0px;
     margin-top: -5px;
 }
+
 .nav_bold     {
     color: #930;
     font-size: 16px;
@@ -165,7 +166,7 @@ a:active {
     float: right;
     font-size: 15px;
     list-style-type: none;
-    width: 440px;
+    width: 350px;
     color: #300;
     clip: rect(auto,auto,auto,auto);
     margin-top: 50px;
