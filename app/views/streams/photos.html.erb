@@ -4,9 +4,34 @@
           box-shadow: 0 0 30px #ffee54;
       }
   </style>
+  <script type="text/javascript">
+
+      $(document).ready(function() {
+          alert('1');
+          $("a.streamsPhotos").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+
+          <!--$(".photo_out").on('click', function(){-->
+          <!--$("a.streamsPhotos").fancybox({-->
+          <!--wrapCSS    : "fancybox-custom",-->
+          <!--openEffect : "elastic",-->
+          <!--openSpeed  : 500,-->
+          <!--closeSpeed  : 500,-->
+          <!--prevEffect  : "fade",-->
+          <!--nextEffect  : "fade",-->
+          <!--prevSpeed	  : "slow",-->
+          <!--nextSpeed	  : "slow",-->
+
+          <!--helpers: {-->
+          <!--title : {  type : "float"  },-->
+          <!--overlay : {   speedOut : 1000  }-->
+          <!--}-->
+          <!--});-->
+          <!--});-->
+      }); // closes ready
+  </script>
 
 
-<div id="wrapper">
+  <div id="wrapper">
 
   <div id="header">
     <div class="logo"><a  href="/"><img src="/images/index_01.png" width="309" height="89"></a></div>
