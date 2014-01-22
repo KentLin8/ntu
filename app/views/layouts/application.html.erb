@@ -3,8 +3,10 @@
 <!--<html>-->
 <head>
   <title> <%= @page_title || "荒漠甘泉餐廳官網" %> </title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "application", media: "all" %>
   <%#= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
   <%= csrf_meta_tags %>
 
   <%= raw @page_header || '' %>

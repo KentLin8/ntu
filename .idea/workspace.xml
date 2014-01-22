@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ntu.iml" afterPath="$PROJECT_DIR$/.idea/ntu.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/photos.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/photos.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/streams.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/streams.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,14 +11,14 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387525289588" ignored="false" />
     <file path="/index.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387551577259" ignored="false" />
-    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377494302" ignored="false" />
+    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377843148" ignored="false" />
     <file path="/routes.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388396041092" ignored="false" />
     <file path="/streams_controller.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389188682598" ignored="false" />
     <file path="/a.js" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576354785" ignored="false" />
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390376042040" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377717143" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734461211" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390297936612" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -42,13 +39,13 @@
     <file path="$PROJECT_DIR$/../DingBa/.gitignore" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389080000638" ignored="false" />
     <file path="$PROJECT_DIR$/../DingBa/app/models/home.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389080000638" ignored="false" />
     <file path="$PROJECT_DIR$/../DingBa/app/views/restaurant_manage/supply_time.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389080000638" ignored="false" />
-    <file path="/application.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377452816" ignored="false" />
+    <file path="/application.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377849435" ignored="false" />
     <file path="$PROJECT_DIR$/../CoDream/public/index.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342917017" ignored="false" />
     <file path="$PROJECT_DIR$/../CoDream/.idea/workspace.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342563056" ignored="false" />
     <file path="$PROJECT_DIR$/../CoDream/public/tech.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342745308" ignored="false" />
     <file path="$PROJECT_DIR$/../CoDream/public/project.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342898803" ignored="false" />
     <file path="$PROJECT_DIR$/../CoDream/public/project_dingba.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342930791" ignored="false" />
-    <file path="/streams.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377677583" ignored="false" />
+    <file path="/streams.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377855002" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <file leaf-file-name="photos.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/photos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="912" selection-end="912" vertical-scroll-proportion="-11.25">
+            <state line="13" column="0" selection-start="486" selection-end="579" vertical-scroll-proportion="-1.7857143">
               <folding />
             </state>
           </provider>
@@ -89,7 +86,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="325" selection-end="325" vertical-scroll-proportion="-3.75">
+            <state line="8" column="0" selection-start="367" selection-end="460" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +95,7 @@
       <file leaf-file-name="streams.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/streams.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="180" selection-end="180" vertical-scroll-proportion="0.20833333">
+            <state line="16" column="48" selection-start="409" selection-end="409" vertical-scroll-proportion="0.6666667">
               <folding />
             </state>
           </provider>
@@ -147,9 +144,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/streams/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/streams/photos.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/photos.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/streams.html.erb" />
       </list>
     </option>
@@ -885,7 +882,11 @@
       <created>1390376044534</created>
       <updated>1390376044534</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="index">
+      <created>1390377719899</created>
+      <updated>1390377719899</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1042,20 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="325" selection-end="325" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="12" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
@@ -1070,16 +1057,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/photos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="912" selection-end="912" vertical-scroll-proportion="-11.25">
+        <state line="13" column="0" selection-start="486" selection-end="579" vertical-scroll-proportion="-1.7857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="367" selection-end="460" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/streams.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="180" selection-end="180" vertical-scroll-proportion="0.20833333">
+        <state line="16" column="48" selection-start="409" selection-end="409" vertical-scroll-proportion="0.6666667">
           <folding />
         </state>
       </provider>
