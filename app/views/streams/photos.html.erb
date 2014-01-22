@@ -4,66 +4,10 @@
           box-shadow: 0 0 30px #ffee54;
       }
   </style>
-  <script type="text/javascript">
-
-      $(document).ready(function() {
-          alert('1');
-          $("a.streamsPhotos").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
-
-          <!--$(".photo_out").on('click', function(){-->
-          <!--$("a.streamsPhotos").fancybox({-->
-          <!--wrapCSS    : "fancybox-custom",-->
-          <!--openEffect : "elastic",-->
-          <!--openSpeed  : 500,-->
-          <!--closeSpeed  : 500,-->
-          <!--prevEffect  : "fade",-->
-          <!--nextEffect  : "fade",-->
-          <!--prevSpeed	  : "slow",-->
-          <!--nextSpeed	  : "slow",-->
-
-          <!--helpers: {-->
-          <!--title : {  type : "float"  },-->
-          <!--overlay : {   speedOut : 1000  }-->
-          <!--}-->
-          <!--});-->
-          <!--});-->
-      }); // closes ready
-  </script>
 
 
-  <div id="wrapper">
-
-  <div id="header">
-    <div class="logo"><a  href="/"><img src="/images/index_01.png" width="309" height="89"></a></div>
-    <div class="header_bg">
-      <div id="menu"><ul>
-        <li><a target="_blank" href="https://www.facebook.com/streams.tw"  ><img src="/images/icon_f.png" width="20" height="20"></a></li>
-        <li><a target="_blank"  href="http://blog.streams.tw/"><img src="/images/icon_t.png" width="21" height="20"></a></li>
-        <li><a target="_blank"  href="mailto:info@streams.tw"><img src="/images/icon_m.png" width="19" height="19"></a></li>
-        <li><a  target="_blank"  href="http://dingba.codream.tw/r/4d1d73"> 線上網路訂位 </a></li>
-        <li><a  target="_blank" href="http://ntu.streams.tw/">視差捲軸網頁體驗 </a></li>
-      </ul></div>
-    </div>
-    <div class="header_icon"><a href="http://ntu.streams.tw/"><img src="/images/index_03.png" width="81" height="89"></a></div>
-  </div>
-
-
-  <div id="nav_bg">
-
-    <div id="nav_left">
-      <div class="logo_s"><img src="/images/index_04.png" width="248" height="42"></div>
-
-      <div id="nav">
-        <ul><li><a href="/streams/about" >關於荒漠甘泉</a></li>
-          <li><a  href="/streams/menu"  >極品美饌</a></li>
-          <li><a href="/streams/photos"  >餐廳實景</a></li>
-          <li><a href="/streams/stores" >分店介紹＆預約</a></li>
-          <li><a href="/streams/what_we_do" >看見荒漠甘泉</a></li></ul>
-      </div>
-    </div>
-  </div>
-
-
+<div id="wrapper">
+  <%= render  partial: 'streams/header', locals: { page: 'photos' } %>
 
   <div class="photo_main">
     <div class="content_left" style="float:left;">
