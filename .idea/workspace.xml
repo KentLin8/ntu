@@ -6,21 +6,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ntu.iml" afterPath="$PROJECT_DIR$/.idea/ntu.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/photos.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/photos.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/streams.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/streams.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387525289588" ignored="false" />
     <file path="/index.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387551577259" ignored="false" />
-    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390447193732" ignored="false" />
+    <file path="/photos.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390457838616" ignored="false" />
     <file path="/routes.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388396041092" ignored="false" />
     <file path="/streams_controller.rb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389188682598" ignored="false" />
     <file path="/a.js" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576354785" ignored="false" />
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390448338029" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390457107362" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388734461211" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390297936612" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -47,7 +49,7 @@
     <file path="$PROJECT_DIR$/../CoDream/public/tech.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342745308" ignored="false" />
     <file path="$PROJECT_DIR$/../CoDream/public/project.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342898803" ignored="false" />
     <file path="$PROJECT_DIR$/../CoDream/public/project_dingba.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1389342930791" ignored="false" />
-    <file path="/streams.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390377855002" ignored="false" />
+    <file path="/streams.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390457666606" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="523" selection-end="544" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,34 +81,27 @@
       <file leaf-file-name="photos.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/photos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="-9.375">
+            <state line="6" column="5" selection-start="240" selection-end="240" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="streams.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/streams.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="streams.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/streams.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="436" selection-end="436" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="491" selection-end="491" vertical-scroll-proportion="0.3515625">
+            <state line="16" column="1" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="streams.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/streams.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="43" selection-start="496" selection-end="496" vertical-scroll-proportion="0.6640625">
               <folding />
             </state>
           </provider>
@@ -145,10 +140,10 @@
         <option value="$PROJECT_DIR$/app/views/streams/photos.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/streams/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/streams.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/streams.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/photos.html.erb" />
       </list>
     </option>
@@ -890,7 +885,11 @@
       <created>1390448341441</created>
       <updated>1390448341441</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="index">
+      <created>1390457110962</created>
+      <updated>1390457110962</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1040,27 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/streams.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/streams.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="436" selection-end="436" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="74" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0201511">
@@ -1068,23 +1046,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/streams.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="523" selection-end="544" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/photos.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="-9.375">
+        <state line="26" column="52" selection-start="653" selection-end="653" vertical-scroll-proportion="0.5147059">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="491" selection-end="491" vertical-scroll-proportion="0.3515625">
+        <state line="16" column="1" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/photos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="240" selection-end="240" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/streams.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="496" selection-end="496" vertical-scroll-proportion="0.6640625">
           <folding />
         </state>
       </provider>
