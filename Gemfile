@@ -5,6 +5,8 @@ gem 'google_drive'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+
+
 # Use mysql as the database for Active Record
 #gem 'mysql2'
 
@@ -22,6 +24,7 @@ gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'fancybox2-rails', '~> 0.2.4'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
