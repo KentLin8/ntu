@@ -2,15 +2,16 @@
 <html>
 <head>
   <title> <%= @page_title || "荒漠甘泉餐廳官網" %> </title>
-  <%= stylesheet_link_tag    "application", media: "all"  %>
-  <%#= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag  "application", media: "all", "data-turbolinks-track" => true %>
+  <%#= stylesheet_link_tag    "application", media: "all"  %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <!--<link rel="stylesheet" href="/colorbox.css" />-->
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
   <!--<script src="/jquery.colorbox.js"></script>-->
 
   <!-- Add jQuery library -->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>-->
   <!-- Add mousewheel plugin (this is optional) -->
   <script type="text/javascript" src="/lib/jquery.mousewheel-3.0.6.pack.js"></script>
   <!-- Add fancyBox main JS and CSS files -->

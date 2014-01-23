@@ -1,33 +1,4 @@
-﻿
-<html>
-<head>
-  <title>確認板首頁</title>
-  <script src="./images/swfobject_modified.js" type="text/javascript"></script>
-  <style type="text/css" media="screen">#FlashID {visibility:hidden}</style>
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script>
-      $(function() {
-          $( "#dialog" ).dialog({
-              autoOpen: false,
-              show: {
-                  effect: "blind",
-                  duration: 1000
-              },
-              hide: {
-                  effect: "explode",
-                  duration: 1000
-              }
-          });
-
-          $( "#opener" ).click(function() {
-              $( "#dialog" ).dialog( "open" );
-          });
-      });
-  </script>
-
-</head>
-
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+﻿<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
 <div id="wrapper">
   <%= render partial:'streams/header' , locals: { page: 'index' }  %>
 
@@ -133,5 +104,23 @@
         swfobject.registerObject("FlashID");
     </script>
 
+<script>
+    $(function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
 
-</body></html>
+        $( "#opener" ).click(function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    });
+</script>
+
