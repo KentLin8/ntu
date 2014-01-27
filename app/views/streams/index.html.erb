@@ -78,10 +78,10 @@
              <span class="t_yellow" >  <%=post.pubDate %>  <% if nil != post && post.respond_to?(:pubDate) %></span>
                    <br>
              <span class="t_gray">
-              <a id="opener" class="t_gray" href="<%=post.link%>" target ='_blank'><%= post.title[0..20] %> ...</a>
-               <!--<div id="dialog" title="Basic dialog">-->
-                 <!--<p> <%=post.description %>  </p>-->
-               <!--</div>-->
+              <span id="opener" class="t_gray" href="#" ><%= post.title[0..20] %> ...</span>
+               <div id="dialog" title="Basic dialog" style="position: absolute; height: auto; width: 300px; top: 70.5px; left: 485.5px; display: none; visibility: visible;">
+                 <p> <%= raw post.description %>  </p>
+               </div>
 			 </span><br>
 		   <% end %>
 		  <% end %>
@@ -99,7 +99,7 @@
 </div>
 
 
-<!--script>
+<script>
     $(function() {
         $( "#dialog" ).dialog({
             autoOpen: false,
@@ -117,5 +117,5 @@
             $( "#dialog" ).dialog( "open" );
         });
     });
-</script-->
+</script>
 

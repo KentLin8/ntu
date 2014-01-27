@@ -3,15 +3,11 @@ class StreamsController < ApplicationController
   require 'rss'
   
   def photos
-    require 'rubygems'
-    #require 'google_drive'
 
     if  $my_photos_list.nil?
-      # Logs in.# You can also use OAuth. See document of GoogleDrive.login_with_oauth for details.
-      google_session =  GoogleDrive.login('streams.in.taipei@gmail.com', Ntu::Application::Google_Driver_Login_P)
-      # First worksheet of https://docs.google.com/spreadsheet/ccc?key=pz7XtlQC-PYx-jrVMJErTcg
-      $my_photos_list =  google_session.spreadsheet_by_key('0AjhbVFj0RYrOdGw4c3Nvb2pDT2h0ODFPRGFjcDRTM2c').worksheets[0]
+        reload_photo
     end
+
     @page_title = '荒漠甘泉餐廳-Photos'
 
     @page_header =  ''
@@ -39,13 +35,27 @@ class StreamsController < ApplicationController
 
   end
 
+  def reload_menu
+    # Logs in.# You can also use OAuth. See document of GoogleDrive.login_with_oauth for details.
+    google_session =  GoogleDrive.login('streams.in.taipei@gmail.com', Ntu::Application::Google_Driver_Login_P)
+    # First worksheet of https://docs.google.com/spreadsheet/ccc?key=pz7XtlQC-PYx-jrVMJErTcg
+    $my_menu_list =  google_session.spreadsheet_by_key('0Aj3HE-dOCGJVdHdQWGpja292LWNINmwyWkNHbEp3THc').worksheets[0]
+  end
+
+  def reload_photo
+    require 'rubygems'
+    #require 'google_drive'
+    # Logs in.# You can also use OAuth. See document of GoogleDrive.login_with_oauth for details.
+    google_session =  GoogleDrive.login('streams.in.taipei@gmail.com', Ntu::Application::Google_Driver_Login_P)
+    # First worksheet of https://docs.google.com/spreadsheet/ccc?key=pz7XtlQC-PYx-jrVMJErTcg
+    $my_photos_list =  google_session.spreadsheet_by_key('0AjhbVFj0RYrOdGw4c3Nvb2pDT2h0ODFPRGFjcDRTM2c').worksheets[0]
+
+  end
+
   def menu
 
     if  $my_menu_list.nil?
-      # Logs in.# You can also use OAuth. See document of GoogleDrive.login_with_oauth for details.
-      google_session =  GoogleDrive.login('streams.in.taipei@gmail.com', Ntu::Application::Google_Driver_Login_P)
-      # First worksheet of https://docs.google.com/spreadsheet/ccc?key=pz7XtlQC-PYx-jrVMJErTcg
-      $my_menu_list =  google_session.spreadsheet_by_key('0Aj3HE-dOCGJVdHdQWGpja292LWNINmwyWkNHbEp3THc').worksheets[0]
+      reload_menu
     end
 
     @packages = []
