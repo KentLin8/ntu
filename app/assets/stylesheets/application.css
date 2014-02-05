@@ -666,3 +666,10 @@ a:active {
     font-size: 14px;
     color: #C63;
 }
+
+.index_bu {
+    height: 54px;
+    width: 151px;
+    position: absolute;
+    top: 785px;
+}
