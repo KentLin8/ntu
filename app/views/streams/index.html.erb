@@ -1,4 +1,4 @@
-﻿<div id="wrapper">
+<div id="wrapper">
   <%= render partial:'streams/header' , locals: { page: 'index' }  %>
 
   <div class="main_top"><img src="/images/index_12.png" width="990" height="23">
@@ -78,7 +78,7 @@
              <span class="t_yellow" >  <%=post.pubDate %>  <% if nil != post && post.respond_to?(:pubDate) %></span>
                    <br>
              <span class="t_gray">
-              <a id="opener" class="t_gray" href="http://blog.streams.tw/" ><%= post.title[0..20] %> ...</a></span>
+              <a id="opener" class="t_gray" href="http://blog.streams.tw/" > <%= post.title[0..20] %> ...</a> </span>
                <div id="dialog" title="Basic dialog" style="position: absolute; height: auto; width: 300px; top: 70.5px; left: 485.5px; display: none; visibility: visible;">
                  <p> <%= raw post.description %>  </p>
                </div>
