@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streams/index.html.erb" afterPath="$PROJECT_DIR$/app/views/streams/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntu.iws" />
@@ -16,7 +16,7 @@
     <file path="/a.sql" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576467875" ignored="false" />
     <file path="/a.xml" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576483638" ignored="false" />
     <file path="/Gemfile.lock" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1387576616640" ignored="false" />
-    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1391584162598" ignored="false" />
+    <file path="/Dummy.txt" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1391585401722" ignored="false" />
     <file path="/index.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1391583977445" ignored="false" />
     <file path="/_header.html.erb" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1390297936612" ignored="false" />
     <file path="/photo.html" changelist="1a4fcec7-b819-4a7e-8b3c-a832dba7c294" time="1388139590440" ignored="false" />
@@ -82,19 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="673" column="18" selection-start="11985" selection-end="11985" vertical-scroll-proportion="0.0">
+            <state line="673" column="11" selection-start="11981" selection-end="11981" vertical-scroll-proportion="0.72164947">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/streams/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="36" selection-start="49" selection-end="55" vertical-scroll-proportion="0.056179777">
+            <state line="1" column="36" selection-start="49" selection-end="55" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -134,10 +134,10 @@
         <option value="$PROJECT_DIR$/app/controllers/streams_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/streams/reload_photo.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/streams.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/photos.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/streams/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -863,7 +863,11 @@
       <created>1391584165653</created>
       <updated>1391584165653</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="index">
+      <created>1391585404805</created>
+      <updated>1391585404806</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1035,13 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="673" column="18" selection-start="11985" selection-end="11985" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
@@ -1065,7 +1062,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streams/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="49" selection-end="55" vertical-scroll-proportion="0.056179777">
+        <state line="1" column="36" selection-start="49" selection-end="55" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="673" column="11" selection-start="11981" selection-end="11981" vertical-scroll-proportion="0.72164947">
           <folding />
         </state>
       </provider>
