@@ -15,7 +15,11 @@ class StreamsController < ApplicationController
   end
 
   def index
-     begin
+    if  $my_about_list.nil?
+      reload_about
+    end
+
+    begin
        @latest_blog_posts = RSS::Parser.parse(open('http://blog.streams.tw/rss').read, false).items[0..3]
      rescue
        # Do nothing, just continue.  The view will skip the blog section if the feed is nil.
@@ -51,6 +55,18 @@ class StreamsController < ApplicationController
     $my_photos_list =  google_session.spreadsheet_by_key('0AjhbVFj0RYrOdGw4c3Nvb2pDT2h0ODFPRGFjcDRTM2c').worksheets[0]
 
   end
+
+  def reload_about
+    require 'rubygems'
+    #require 'google_drive'
+    # Logs in.# You can also use OAuth. See document of GoogleDrive.login_with_oauth for details.
+    google_session =  GoogleDrive.login('streams.in.taipei@gmail.com', Ntu::Application::Google_Driver_Login_P)
+    # First worksheet of https://docs.google.com/spreadsheet/ccc?key=pz7XtlQC-PYx-jrVMJErTcg
+    $my_about_list =  google_session.spreadsheet_by_key('0AjhbVFj0RYrOdDQ2R3hlbDItZkJzTy1kRjJEdFVzYXc').worksheets[0]
+
+  end
+
+
 
   def menu
 

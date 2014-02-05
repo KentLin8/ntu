@@ -9,8 +9,9 @@ Ntu::Application.routes.draw do
   get 'streams/what_we_do'
   get 'streams/about'
   get 'streams/menu'
+  get 'streams/reload_about'
+  get 'streams/reload_photo'
   get 'streams/reload_menu'
-
 
 
   # Example of regular route:
